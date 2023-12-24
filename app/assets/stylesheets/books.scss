@@ -1,3 +1,39 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    color:black;
+}
+
+td{
+    padding-right:10px;
+    padding-bottom:5px;
+}
+
+.new_book_create{
+    margin-top:20px;
+}
+
+.new_book{
+    padding-bottom:15px;
+}
+
+
+
+.show_title{
+    padding-left:30px;
+}
+
+.show_body{
+    padding:30px 0 30px 30px;
+}
+
+.show_book{
+    font-weight:bold;
+}
